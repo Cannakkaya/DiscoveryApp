@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:gitdisco}",
+            "name": "Debug gitdisco",
+            "program": "${workspaceFolder:gitdisco}/.build/debug/gitdisco",
+            "preLaunchTask": "swift: Build Debug gitdisco"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:gitdisco}",
+            "name": "Release gitdisco",
+            "program": "${workspaceFolder:gitdisco}/.build/release/gitdisco",
+            "preLaunchTask": "swift: Build Release gitdisco"
+        }
+    ]
+}
